@@ -1,0 +1,19 @@
+title: 데스크 기어랩
+description: 생산성을 극대화하는 홈오피스 & 데스크테리어 기어 비교 가이드
+url: "https://desk.enjoy-onepage.com"
+baseurl: ""
+theme: minima
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - auto_poster.py
+  - requirements.txt
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - used_keywords.txt
+header_pages:
+  - all_posts.md
